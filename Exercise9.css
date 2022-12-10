@@ -1,0 +1,556 @@
+
+
+html,body {
+    margin: 0px;
+    background: white;
+    box-sizing: border-box;
+    
+}
+.overlay {
+    background:rgba(255, 255, 255, 0.74);
+    position: relative ;
+    width: 100%;
+    height:100% ; 
+    z-index: 1;
+    opacity: 0.8;
+    
+}
+.footer {
+    position: relative;
+    color: white;
+    background: #ff4500;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: right;
+    box-sizing: border-box;
+    margin-top: 300px;
+    font-family: 'Alexandria', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Carter One', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Teko', sans-serif;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    background: none;
+    position: absolute;
+    width: 100%;
+}
+.oc-logo {
+    width: 200px;
+}
+.nav-bar p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 10px; 
+    display: flex;
+    align-items: flex-end;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+.nav-bar a:hover {
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.banner-content {
+    position: absolute;
+    color: none;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    margin-top: 300px; 
+    box-sizing: border-box;
+    max-width: 720px;
+    width: 100%;
+    
+}
+.banner-content img:hover {
+    transition: 1s;
+    box-shadow: 20px;
+    
+}
+.banner-content h1 {
+    font-family: 'Alexandria', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Carter One', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Teko', sans-serif;
+    border: white solid 5px;
+    padding: 50px 100px ;
+}
+.banner-content p {
+    font-family: 'Alexandria', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Carter One', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Teko', sans-serif;
+    margin: 10px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+}
+.menu h1 { 
+    background:#d9d9d9 ;
+    padding: 8px 15px;
+    border-radius: 2px;
+    margin-top: 50px;
+    margin-bottom:50px ;
+    font-family: 'Alexandria', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Carter One', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Teko', sans-serif
+}
+.menu-reviews {
+    background: url(MENU.png) ;
+    background-size: cover;
+    background-repeat: no repeat;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+
+.cajun-pc-image {
+    position: relative;
+    width: 250px;
+    
+}
+.Cajun-pc {
+    display: block;
+    width: 100%;
+}
+.cajun-pc-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    color: white;
+    background:#ff440081;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 10px;
+    opacity: 0;
+    backdrop-filter: blur(3px);
+    font-style: font-family: 'Alexandria', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Carter One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Teko', sans-serif;;
+}   
+.cajun-pc-overlay:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+/*  */
+.salted-egg-pc {
+    position: relative;
+    width: 250px;
+   
+}
+.saltedegg-pc-image {
+    display: block;
+    width: 100%;
+}
+.saltedeggn-pc-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    color: white;
+    background:#ff440081;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 18px;
+    opacity: 0;
+    backdrop-filter: blur(3px);
+    font-style: font-family: 'Alexandria', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Carter One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Teko', sans-serif;;
+}   
+.saltedeggn-pc-overlay:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+/*  */
+.buttered-garlic-lobster {
+    position: relative;
+    width: 250px;
+    
+}
+.buttered-garlic-lobster-image {
+    display: block;
+    width: 100%;
+}
+.buttered-garlic-lobster-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    color: white;
+    background:#ff440081;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 18px;
+    opacity: 0;
+    backdrop-filter: blur(3px);
+    font-style: font-family: 'Alexandria', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Carter One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Teko', sans-serif;;
+}   
+.buttered-garlic-lobster-overlay:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+/*  */
+.cajun-lobster {
+    position: relative;
+    width: 250px;
+    
+}
+.cajun-lobster-image {
+    display: block;
+    width: 100%;
+}
+.cajun-lobster-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    color: white;
+    background:#ff440081;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 18px;
+    opacity: 0;
+    backdrop-filter: blur(3px);
+    font-style: font-family: 'Alexandria', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Carter One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Teko', sans-serif;;
+}   
+.cajun-lobster-overlay:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+/*  */
+.cajun-alaskan{
+    position: relative;
+    width: 250px;
+    
+}
+.cajun-alaskan-image {
+    display: block;
+    width: 100%;
+}
+.cajun-alaskan-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    color: white;
+    background:#ff440081;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 18px;
+    opacity: 0;
+    backdrop-filter: blur(3px);
+    font-style: font-family: 'Alexandria', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Carter One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Teko', sans-serif;;  
+}   
+.cajun-alaskan-overlay:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+/*  */
+.cheesy-baked-scallops {
+    position: relative;
+    width: 250px;
+    
+}
+.cheesy-baked-scallops-image {
+    display: block;
+    width: 100%;
+}
+.cheesy-baked-scallops-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 18px;
+    opacity: 0;
+    background: #ff440081;
+    backdrop-filter: blur(3px);
+    font-style: font-family: 'Alexandria', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Carter One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Teko', sans-serif;;
+    
+}   
+.cheesy-baked-scallops-overlay:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+.menu-content {
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin:0;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 70px;
+    
+}  
+.menu-content img{
+    width: 300px;
+}
+.menu-content2 img{
+    width: 300px;
+}
+.menu-content2 {
+    width: 100%;
+    left: 0;
+    top: 10px;
+    margin:0;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;;
+    column-gap: 70px;
+    
+}  
+.menu-content p {
+
+   padding:8px 8px 8px 8px;
+}
+.menu-content2 p {
+
+    padding:8px 8px 8px 8px;
+ }
+ .menu-reviews {
+    width: 100%;
+ }
+
+/*  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.reviews {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews-content {
+        background: url(MENU.png) ;
+        background-size: cover;
+        background-repeat: no repeat;
+        margin-top: 8px;
+        position: relative;
+        width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}   
+.images img {
+    border-radius: 10px;
+}
+.menu-content img {
+    border-radius: 10px;
+}
+.menu-content2 img {
+    border-radius: 10px;
+}
+.reviews-content-h1 { 
+    background:  #d9d9d9;
+    padding: 8px 16px;
+    border-radius: 2px;
+    margin-top: 150px;
+    position: absolute;
+    font-family: 'Alexandria', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Carter One', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Teko', sans-serif
+    
+}
+.slider {
+    padding-top: 300px;
+    height: 60%;
+    overflow: hidden;
+    padding-bottom: 30px;
+
+}
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 100%;
+}
+.images img {
+    height: 100%;
+    width: 600px ;
+    transition: all 0.15s ease;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    border: black solid 2px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 3px;
+}
+.dots label:hover {
+    background: #ff4500;
+    transition: all 0.5s ease;
+}
+#review1:checked ~ .r1 {
+    margin-left: 5400px;
+}
+#review2:checked ~ .r2 {
+    margin-left: 4200px;
+}
+#review3:checked ~ .r3 {
+    margin-left: 3000px;
+}
+#review4:checked ~ .r4 {
+    margin-left: 1800px;
+}
+#review5:checked ~ .r5 {
+    margin-left: 600px; 
+}
+#review6:checked ~ .r6 {
+    margin-left: -600;
+}
+#review7:checked ~ .r7 {
+    margin-left: -1800;
+}
+#review8:checked ~ .r8 {
+    margin-left: -3000;
+}
+#review9:checked ~ .r9 {
+    margin-left: -4200;
+}
+#review10:checked ~ .r10 {
+    margin-left: -5400;
+}
+.about {
+    background: url(MENU.png) ;
+    background-size: cover;
+    background-repeat: no repeat;
+    margin: 0;
+    position: relative;
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+text-align: left;
+}
+.about  {
+    background:  #d9d9d9;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+   
+}
+.about-us {
+   padding-top: 50px;
+   position: absolute;
+   box-sizing: border-box;
+   align-content: center;
+   font-family: 'Alexandria', sans-serif;
+   font-family: 'Bebas Neue', cursive;
+   font-family: 'Carter One', cursive;
+   font-family: 'Permanent Marker', cursive;
+   font-family: 'Teko', sans-serif
+    
+}
+@media (max-width:720px) {
+    
+    
+}
